@@ -1,36 +1,50 @@
-body, p {
-    background-color: lavenderblush;
-	color:black;
-	font-size:20px;
-	text-align:center;
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<title>Lab8</title>
+<style>
+body {
+	background-image: url("https://i.ytimg.com/vi/TrCrffRAMy8/maxresdefault.jpg");
 }
-h1 {
-	  font-family:arial;
-	  font-style:italic;
-	  border:solid;
-	  border-color:black
-}
+
 img {
-   height:132px;
-   width:132px;
+  height: 193px;
+  width: 499px;
+  display: block;
+  margin: auto;
+} 
+
+.style {
+  font-family: "arial", serif;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 20px;	
+  text-align: left;
 }
-div.gallery {
-    margin: 20px;
-    border: 10px solid;
-	border-color:white;
-    width: 300px;
-	height: 250px;
-	margin-left:auto;
-	margin-right:auto;
+
+.est {
+  text-transform: uppercase;
 }
-div.gallery:hover {
-    border: 1px solid #777;
+
+p {
+  font-family: "georgia", serif;
+  color: white;
+  font-size: 24px; 
+  text-align: justify;
+  text-indent:100px;
 }
-div.gallery img {
-    width: 300px;
-    height: 200px;
-}
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
+
+
+
+
+</style>
+<body>
+<img src="https://fanart.tv/api/download.php?type=download&image=116857&section=3">
+<p class="style"> <div class="est"> 2015 film </div>
+	Columbia Pictures, 1942 Pictures, Happy Madison Productions <br> Directed by Chris Columbus <br>  			Written by Tim Herlihy and Timothy Dowling 
+</p>
+<p> As kids in the 1980s, Sam Brenner (Adam Sandler), Will Cooper (Kevin James), Ludlow Lamonsoff (Josh Gad), and Eddie "The Fire Blaster" Plant (Peter Dinklage) saved the world thousands of times - at 25 cents a game in the video arcades. Now, they're going to have to do it for real. In Pixels, when intergalactic aliens discover video feeds of classic arcade games and misinterpret them as a declaration of war, they attack the Earth, using the video games as the models for their assaults -- and now-U.S. President Cooper must call on his old-school arcade friends to save the world from being destroyed by PAC-MAN, Donkey Kong, Galaga, Centipede, and Space Invaders. Joining them is Lt. Col. Violet Van Patten (Michelle Monaghan), a specialist supplying the arcaders with unique weapons to fight the aliens. </p>
+</body>
+</html>
