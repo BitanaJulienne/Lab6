@@ -14,6 +14,7 @@ h1 {
 img {
    height:132px;
    width:132px;
+   position: center;
 }
 div.gallery {
     margin: 20px;
